@@ -79,14 +79,14 @@ github-repo-hadoop-hdfs:
 #    open-source-repo_name: "kafka"
 #    open-source-repo_URL: "https://github.com/apache/kafka.git"
     
-jira:
+jira-hadoop:
  service_id: jira
  parameters:
    type: existing
    project_key: "HADOOP"
    api_url: "https://issues.apache.org/jira"
 
-jira:
+jira-mapreduce:
  service_id: jira
  parameters:
    type: existing
@@ -94,7 +94,7 @@ jira:
    api_url: "https://issues.apache.org/jira"
    
    
-jira:
+jira-hdfs:
  service_id: jira
  parameters:
    type: existing
